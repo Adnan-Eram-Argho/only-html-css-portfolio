@@ -20,6 +20,10 @@ padding:15px 35px;
 p{
     color:#474747;
 }
+.icons{
+    color: tomato;
+    font-size: 30px;
+}
 /* nav related styles*/
 nav{
     display:flex;
@@ -110,7 +114,7 @@ nav a {
     font-size: 40px;
    }
    .profile-pic{
-    width: 60px;
+    width: 0px;
 
    }
    .banner-content>button{
@@ -201,4 +205,60 @@ text-align: center;
     }
 }
 
-/* main swection styles */
+/* footer styles */
+footer{
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding:5% 10% ;
+    
+}
+.fooot{
+    display: flex;
+    flex-direction: row;
+    
+}
+.connect{
+    width: 50%;
+    
+}
+.icon>i{
+color: #FD6E0A;
+margin: 10px;
+font-size: 30px;
+}
+.message{
+    display: flex;
+    flex-direction: column;   
+    width: 50%; 
+}
+.name{
+    border: none;
+    margin: 5px;
+    padding: 15px 35px;
+}
+.text{
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding:70px 35px ;
+    
+}
+.last{
+    text-align: center;
+    color: #949292;
+    margin-top:60px;
+}
+@media only screen and (max-width: 800px) {
+    .fooot{
+        flex-direction: column;
+    }
+    .message{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .connect{
+        width: 100%;
+        text-align: center;
+    }
+}
