@@ -47,7 +47,15 @@ nav a {
     text-decoration: none;
     color: #474747
 }
-
+@media only screen and (max-width: 600px) {
+   nav{
+    justify-content: left;
+    margin: 0;
+   }
+   nav li{
+    margin-right: 20px;
+   }
+}
 
 
 /* header releated styles*/
@@ -79,12 +87,32 @@ nav a {
     margin-top: 5px;
     margin-bottom:20px;
 }
-.banner-content{
-    
-}
+
 .profile-pic{
     width: 500px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .header{
+        background-size: contain;
+    }
+   .banner{
+    padding-left: 60px;
+   }
+   .banner-greeting{
+    font-size: 20px;
+   }
+   .banner-title{
+    font-size: 40px;
+   }
+   .profile-pic{
+    width: 0;
+   }
+   .banner-content>button{
+    margin: 5px;
+   }
+  }
 
 /* about swection styles */
 .about-div{
@@ -110,7 +138,8 @@ nav a {
     
 }
 .ïd{
-display: flex;
+    display: flex;
+flex-direction: row;
 padding: 0 10%;
 padding-bottom: 10%;
 justify-content: space-between;
@@ -125,6 +154,16 @@ text-align: center;
 }
 .id-p{
     color:#474747 ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .about-div{
+        margin: 20px;
+    }
+    .ïd{
+        flex-direction: column;
+    }
 }
 
 /* main swection styles */
