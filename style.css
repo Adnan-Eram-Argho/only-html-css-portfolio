@@ -50,7 +50,7 @@ nav a {
     text-decoration: none;
     color: #474747
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
    nav{
     justify-content: left;
     margin: 0;
@@ -96,7 +96,7 @@ nav a {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .header{
         background-size: contain;
     }
@@ -111,7 +111,7 @@ nav a {
    }
    .profile-pic{
     width: 60px;
-    
+
    }
    .banner-content>button{
     margin: 5px;
@@ -161,7 +161,7 @@ text-align: center;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .about-div{
         margin: 20px;
     }
@@ -191,7 +191,7 @@ text-align: center;
     border-radius: 0px 20px;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .skills{
         flex-direction: column;
         
