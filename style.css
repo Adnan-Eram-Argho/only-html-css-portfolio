@@ -17,6 +17,9 @@ font-weight: 700;
 padding:15px 35px;
 
 }
+p{
+    color:#474747;
+}
 /* nav related styles*/
 nav{
     display:flex;
@@ -107,7 +110,8 @@ nav a {
     font-size: 40px;
    }
    .profile-pic{
-    width: 0;
+    width: 60px;
+    
    }
    .banner-content>button{
     margin: 5px;
@@ -163,6 +167,37 @@ text-align: center;
     }
     .ïd{
         flex-direction: column;
+    }
+}
+
+/*what i do*/
+.what-i-do{
+    text-align: center;
+}
+.what-i-do>p{
+    padding: 0  10%;
+}
+.skills{
+    margin-top: 50px;
+    padding:0 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.spec-skill{
+    margin:0 20px ;
+    padding-top: 10px;
+    box-shadow:-5px -5px 40px #949292;
+    border-radius: 0px 20px;
+
+}
+@media only screen and (max-width: 600px) {
+    .skills{
+        flex-direction: column;
+        
+    }
+    .spec-skill{
+        margin-top: 20px;
     }
 }
 
